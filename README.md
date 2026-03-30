@@ -52,10 +52,10 @@ git push -u origin main
 
 ---
 
-## 💻 Run Locally (Termux)
+## 💻 Run Locally 
 
 ```bash
-pkg update && pkg install nodejs git -y
+pip update && pip install nodejs git -y
 cd voxforge
 npm run install:all
 cp .env.example .env
